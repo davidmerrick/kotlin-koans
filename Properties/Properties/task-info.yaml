@@ -17,7 +17,7 @@ files:
                   counter++
               }
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     class PropertyExample() {
         var counter = 0

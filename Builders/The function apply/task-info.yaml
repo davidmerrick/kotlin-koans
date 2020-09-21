@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 44
-    length: 6
+    length: 19
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -15,7 +15,7 @@ files:
       f()
           return this
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun <T> T.myApply(f: T.() -> Unit): T {
         TODO()
@@ -68,5 +68,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 21 Sep 2020 20:46:37 UTC
 record: -1
