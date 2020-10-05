@@ -18,7 +18,7 @@ files:
           return map
       }
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     import java.util.HashMap
 
@@ -51,7 +51,4 @@ files:
     }
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Mon, 21 Sep 2020 20:46:05 UTC
 record: -1

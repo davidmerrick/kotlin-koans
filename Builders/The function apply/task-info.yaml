@@ -15,7 +15,7 @@ files:
       f()
           return this
     selected: false
-    status: Solved
+    status: Unchecked
   text: |
     fun <T> T.myApply(f: T.() -> Unit): T {
         TODO()
@@ -69,7 +69,4 @@ files:
     }
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Mon, 21 Sep 2020 20:46:37 UTC
 record: -1

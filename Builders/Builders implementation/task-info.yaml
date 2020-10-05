@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 352
-    length: 10
+  - offset: 356
+    length: 74
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -15,17 +15,17 @@ files:
       val tr = TR()
               tr.init()
               children += tr
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 437
-    length: 10
+  - offset: 509
+    length: 74
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 437
     initialized_from_dependency: false
     possible_answer: children += TD().apply(init)
-    selected: false
+    selected: true
     status: Unchecked
   text: |-
     open class Tag(val name: String) {
@@ -108,5 +108,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

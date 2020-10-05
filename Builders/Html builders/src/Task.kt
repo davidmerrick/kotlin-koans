@@ -21,8 +21,14 @@ fun renderProductTable(): String {
                     td(color = getCellColor(index, 1)) {
                         text(product.price)
                     }
+                    this@tr.td {
+                        text(product.price)
+
+                    }
+
                     td(color = getCellColor(index, 2)) {
-                        text(product.popularity)
+
+
                     }
                 }
             }

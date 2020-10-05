@@ -66,9 +66,9 @@ files:
     initialized_from_dependency: false
     possible_answer: (color = getTitleColor())
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 404
-    length: 472
+    length: 526
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -89,7 +89,7 @@ files:
                       }
                   }
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     fun renderProductTable(): String {
         return html {
@@ -183,7 +183,4 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Mon, 21 Sep 2020 21:06:21 UTC
 record: -1
